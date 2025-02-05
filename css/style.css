@@ -1,4 +1,6 @@
+@import url(https://fonts.googleapis.com/earlyaccess/nicomoji.css);
 .greentitle {
     font-size: 32px;
     color: green;
+    font-family: "Nico Moji";
 }
