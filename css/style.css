@@ -10,6 +10,7 @@
     font-size: 32px;
     color: green;
     font-family: "Nico Moji";
+
 }
 
 .flex{
@@ -17,13 +18,11 @@
 }
 
 .logo {
-    display: flex;
     align-items: center;
     justify-content: center;
 }
 .images{
-    padding-left: 6px;
-    padding-right: 6px;
+    gap: 66px;
 }
 
 .align-center{
@@ -32,7 +31,6 @@
 }
 
 body{
-    display: flex;
     flex-direction: column;
     align-items: center; 
 }
@@ -45,11 +43,41 @@ header{
 
 .container{ 
     width: 1707px;
-    display: flex;
     flex-direction: column; 
 }
 
 .bold{
     font-size: 80px;
     text-align: center;
+    font-family: "Nico Moji";
+}
+.day{
+    padding: 20px;
+    border: 1px black solid;
+    border-radius: 8px;
+    justify-content: space-between;
+    width: 400px;
+}
+.article_bottom{
+    gap: 20px;
+    flex-direction: column;
+}
+article{
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.spaceBetween{
+    justify-content: space-between;
+}
+
+.margin276{
+    margin-top: 276px;
+}
+.article_top :last-child{
+    font-size: 48px;
+    font-weight: bold;
+}
+.article_top{
+    width: 350px;
 }
