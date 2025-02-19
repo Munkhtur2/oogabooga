@@ -81,3 +81,42 @@ article{
 .article_top{
     width: 350px;
 }
+
+
+
+
+
+
+.price{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+}
+.packs{
+    display: flex;
+    margin-top: 80px;
+    gap: 40px;
+}
+.pricetitle :last-child{
+    font-size: 48px;
+    text-align: center;
+}
+.pricetitle :last-child{
+    
+    text-align: center;
+}
+
+.greenborder{
+    border: 2px lime solid;
+    border-radius: 8px;
+}
+.pack{
+    padding: 20px;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.pack ul{
+
+}
