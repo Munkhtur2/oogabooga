@@ -117,6 +117,48 @@ article{
     gap: 40px;
 }
 
-.pack ul{
+footer{
+    flex-direction: column;
+    align-items: center;
+    padding-top: 128px;
+}
 
+.order{
+    width: 1707px ;
+    justify-content: center;
+    flex-direction: column;
+    padding: 62px 675.5px;
+    background-color: #171717;
+    padding-left: 700px;
+}
+
+button{
+    width: 130px;
+    height: 44px;
+    font-size: 22px;
+    margin-left: 70px;
+    background-color: #18BA51;
+    margin-top: 20px;
+    border-radius: 13px;
+    text-decoration: none;
+    
+}
+
+.social{
+    justify-content: space-between;
+    width: 1707px;
+    height: 230px;
+    padding: 80px ;
+    background-color: #101010;
+}
+
+.order h1{
+    color: white;
+    font-family: sans-serif;
+    width: auto;
+}
+
+button a{
+    color: white;
+    text-decoration: none;
 }
